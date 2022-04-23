@@ -17,7 +17,7 @@ I then coded a "Training Data Generator" in Python to create the data necessary 
 - Class 4 (1% to 3%) = Green/Blue
 - Class 5 (3% to 5%) = Green (Rising)
 
-To run the Python Binance API Feature Extractor in Windows Studio Code you will need the [Python Requests](https://docs.python-requests.org/en/latest/) and [Python OSC](https://pypi.org/project/python-osc/) libraries installed. I've added a lot of comments to my code so you shouldn't have any trouble understanding or modifying it to suit your own needs. 
+To run the Python Binance API Feature Extractor in [Windows Studio Code](https://code.visualstudio.com/) you will need the [Python Requests](https://docs.python-requests.org/en/latest/) and [Python OSC](https://pypi.org/project/python-osc/) libraries installed. I've added a lot of comments to my code so you shouldn't have any trouble understanding or modifying it to suit your own needs. 
 
 If you're going to use this Feature Extractor with my Data Visualiser then set the number of inputs in Wekinator to 1, the number of outputs to 1, and the number of classes to 5. The default ports are used for both the Extractor and Visualiser.
 
