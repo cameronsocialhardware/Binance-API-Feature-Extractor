@@ -1,7 +1,7 @@
 # Binance-API-Feature-Extractor
 **Session 5 Coursework: Creating Your Own Feature Extractor - Machine Learning For Artists &amp; Musicians**
 
-I coded a feature extractor in Python 3.5 to access data from the Binance API to send to Wekinator. Using the Python Requests library, a JSON file is loaded from the Binance API and the Solana 24 hour price change percentage data is extracted and converted from a string into a floating-point number. 
+I coded a feature extractor in Python 3.5 to access data from the Binance API to send to Wekinator. Using the Python Requests library, a JSON file is loaded from the Binance API and the Solana 24 hour price change percentage data is extracted from that file and converted from a string into a floating-point number. 
 
 The floating-point number is then sent as an input to Wekinator through the default port 6448 and default OSC message /wek/inputs using the Python OSC library. The JSON data request is then looped using a while loop and the process is delayed every 30 seconds using time.sleep(30) to prevent Binance from blocking the requests due to overuse of the API.
 
@@ -9,7 +9,7 @@ The purpose of this feature extractor is to send the Solana price change data to
 
 ![Generative Art](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Processing-Data-Art.gif)
 
-I coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify the various 24 hour price change percentage fluctuations. 
+To compliment this, I coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify the various 24 hour price change percentage fluctuationsas seen below.
 
 - Class 1 (-3% to -5%) = Red (Falling)
 - Class 2 (-3% to -1%) = Red/Blue
@@ -17,9 +17,7 @@ I coded a "Training Data Generator" in Python to create the data neccessary to t
 - Class 4 (1% to 3%) = Green/Blue
 - Class 5 (3% to 5%) = Green (Rising)
 
-To run the Python Binance API Feature Extractor in Windows Studio Code you will need the Python Requests library and Python OSC library installed.
-
-**Downloads:**
+To run the Python Binance API Feature Extractor in Windows Studio Code you will need the [Python Requests](https://docs.python-requests.org/en/latest/) and [Python OSC](https://pypi.org/project/python-osc/) libraries installed. I've added a lot of comments to me code so you shouldn't have any trouble understanding or modifying it to suit your own needs. 
 
 - [Download Python Binance API Feature Extractor](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Solana-Tracker.py)
 
