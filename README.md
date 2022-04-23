@@ -1,5 +1,5 @@
 # Binance-API-Feature-Extractor
-Session 5 Coursework: Creating Your Own Feature Extractor - Machine Learning For Artists &amp; Musicians
+**Session 5 Coursework: Creating Your Own Feature Extractor - Machine Learning For Artists &amp; Musicians**
 
 I coded a feature extractor in Python 3.5 to access data from the Binance API to send to Wekinator. Using the Python Requests library, a JSON file is loaded from Binance API and the Solana 24 hour price change percentage is extracted from that file and converted from a string into a floating-point number. This floating-point number is then sent as an input to Wekinator through the default port 6448 and default OSC message /wek/inputs using the Python OSC library. The JSON data request is looped using a while loop and the process is delayed every 30 seconds to prevent Binance from blocking the requests from overuse using time.sleep(30). 
 
