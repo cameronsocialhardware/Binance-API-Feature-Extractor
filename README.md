@@ -7,8 +7,8 @@ This floating-point number is then sent as an input to Wekinator through the def
 
 The purpose of this feature extractor is to send the Solana price change data to Wekinator so I can experiment with visualising the data in creative and intuitive ways. As part of this, I created an output visualiser in Processing that changes color depending on the output class received.
 
-I created synthetic data to train Wekinator to classify a -3% to -5% drop in the Solana 24 hour price change percentage as red (falling), a -1% to +1% as blue (price stable), and 3% to 5% as green (increasing). 
-Additionally, -1% to -3% was set as a mix of red and blue, and 1% to 3% was set as a mix of green and blue.  
+I coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify a -3% to -5% drop in the Solana 24 hour price change percentage to display a red colouration (falling), a -1% to +1% as blue (price stable), and 3% to 5% as green (increasing). 
+Additionally, -1% to -3% was set as a mix of red and blue, and 1% to 3% was set as a mix of green and blue. 
 
 [Download Python Binance API Feature Extractor](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Solana-Tracker.py)
 
