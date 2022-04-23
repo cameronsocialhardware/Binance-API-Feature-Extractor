@@ -19,6 +19,8 @@ To compliment this, I coded a "Training Data Generator" in Python to create the 
 
 To run the Python Binance API Feature Extractor in Windows Studio Code you will need the [Python Requests](https://docs.python-requests.org/en/latest/) and [Python OSC](https://pypi.org/project/python-osc/) libraries installed. I've added a lot of comments to me code so you shouldn't have any trouble understanding or modifying it to suit your own needs. If you're going to use this Feature Extractor with my Data Visualiser then set the number of inputs in Wekinator to 1, the number of outputs to 1, and the number of classes to 5. The default ports are used for both the Extractor and Visualiser.
 
+You can download the files you need below:
+
 - [Download Python Binance API Feature Extractor](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Solana-Tracker.py)
 
 - [Download Python Training Data Generator](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Training-Data.py)
