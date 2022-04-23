@@ -12,9 +12,7 @@ Additionally, -1% to -3% was set as a mix of red and blue, and 1% to 3% was set 
 
 **How To Use**
 
-Run the Python Binance API Feature Extractor in Windows Studio Code. 
-
-You will need the Python Requests library and Python OSC library installed.
+To run the Python Binance API Feature Extractor in Windows Studio Code you will need the Python Requests library and Python OSC library installed.
 
 [Download Python Binance API Feature Extractor](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Solana-Tracker.py)
 
