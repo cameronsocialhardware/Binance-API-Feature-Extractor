@@ -9,7 +9,7 @@ The purpose of this feature extractor is to send the Solana price change data to
 
 ![Generative Art](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Processing-Data-Art.gif)
 
-To compliment this, I coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify the various 24 hour price change percentage fluctuationsas seen below.
+I then coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify the various 24 hour price change percentage fluctuationsas seen below.
 
 - Class 1 (-3% to -5%) = Red (Falling)
 - Class 2 (-3% to -1%) = Red/Blue
