@@ -10,6 +10,11 @@ The purpose of this feature extractor is to send the Solana price change data to
 I coded a "Training Data Generator" in Python to create the data neccessary to train Wekinator to classify a -3% to -5% drop in the Solana 24 hour price change percentage to display a red colouration (falling), a -1% to +1% as blue (price stable), and 3% to 5% as green (increasing). 
 Additionally, -1% to -3% was set as a mix of red and blue, and 1% to 3% was set as a mix of green and blue. 
 
+**How To Use**
+
+Run the Python Binance API Feature Extractor in Windows Studio Code. Python Requests library.
+You will need the Python Requests library and Python OSC library installed.
+
 [Download Python Binance API Feature Extractor](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Solana-Tracker.py)
 
 [Download Python Training Data Generator](https://github.com/cameronsocialhardware/Binance-API-Feature-Extractor/blob/main/Training-Data.py)
