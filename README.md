@@ -3,7 +3,7 @@
 
 I coded a feature extractor in Python 3.5 to access data from the Binance API to send to Wekinator. Using the Python Requests library, a JSON file is loaded from the Binance API and the Solana 24 hour price change percentage data is extracted and converted from a string into a floating-point number. 
 
-That floating-point number is then sent as an input to Wekinator through the default port 6448 and default OSC message /wek/inputs using the Python OSC library. The JSON data request is then looped using a while loop and the process is delayed every 30 seconds to prevent Binance from blocking the requests from overuse using time.sleep(30). 
+The floating-point number is then sent as an input to Wekinator through the default port 6448 and default OSC message /wek/inputs using the Python OSC library. The JSON data request is then looped using a while loop and the process is delayed every 30 seconds using time.sleep(30) to prevent Binance from blocking the requests due to overuse of the API.
 
 The purpose of this feature extractor is to send the Solana price change data to Wekinator so I can experiment with visualising the data in creative and intuitive ways. As part of this, I created an output visualiser in Processing that changes color depending on the output class received.
 
